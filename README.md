@@ -13,6 +13,32 @@ O **Sistema de gestão escolar** é uma aplicação desenvolvida para facilitar 
   - **Desempenho Abaixo da Média**: Visualize quais alunos têm uma média de notas abaixo da média da turma.
   - **Frequência Abaixo de 75%**: Identifique quais alunos têm uma frequência geral abaixo de 75%, destacando aqueles que precisam de atenção especial.
 
+## Aprendizado com React
+
+Durante o desenvolvimento deste projeto, adquiri experiência significativa com o **React**, uma biblioteca popular para construção de interfaces de usuário. Aqui estão alguns dos principais aspectos que aprendi e como eles foram aplicados no projeto:
+
+- **Componentização**: Aprendi a criar componentes reutilizáveis e a gerenciar o estado local e global da aplicação usando o React. No projeto, utilizei componentes para criar o cadastro das informações dos alunos e tabelas de relatórios.
+
+- **Gerenciamento de Estado**: Explorei o uso do **useState** para gerenciar o estado dentro dos componentes e do **useEffect** para lidar com efeitos colaterais, como chamadas a APIs.
+
+- **Roteamento**: Implementei o roteamento com a biblioteca **React Router** para permitir navegação entre diferentes páginas da aplicação, como a seção de cadastro e o relatório.
+
+- **Integração com Backend**: Aprendi a fazer chamadas a APIs usando o **axios** para integrar o frontend com o backend em Spring Boot.
+
+## Tecnologias utilizadas
+
+**BackEnd**
+    - Java 17 (LTS)
+    - SpringBoot
+    - JUnit
+    - Mockito
+    - H2 Database
+
+**FrontEnd**
+    - React
+    - Axios
+    - Material Design 
+
 ## Instrução para executar o backend:
 
 Para executar o .jar via cmd, você pode seguir os seguintes passos:
@@ -26,3 +52,21 @@ Execute o arquivo .jar usando o comando java -jar.
 
 java -jar SchoolManagement-0.0.1-SNAPSHOT.jar
 Lembre-se de substituir "C:\caminho\para\a\pasta" pelo caminho real para a pasta onde o .jar está localizado.
+
+## Instrução para executar o frontend: 
+
+Abra o prompt de comando (cmd).
+
+Navegue até o diretorio front, e execute "npm run dev"
+
+cd C:\SchoolManagement\front
+
+npm run dev
+
+## Premissas assumidas:
+- Número fixo de disciplinas: Carlos ensina exatamente cinco disciplinas para todos os alunos. Portanto não haverá cadastro de matéria.
+- Número fixo de nota por matéria: Cada aluno terá apenas uma nota por matéria, portanto para cálculo da média do aluno, serão consideradas as notas de todas as matérias. Dessa forma, a média informada, é a média geral do aluno.
+- Edição das notas: As notas não serão editadas.
+- Escala de notas: As notas variam de 0 a 10, utilizando números inteiros ou decimais
+- Frequência em porcentagem: A presença dos alunos é registrada como um valor percentual de 0 a 100%.
+- Turma única: O texto menciona apenas uma turma, então o sistema precisa lidar com os dados de apenas uma turma.
