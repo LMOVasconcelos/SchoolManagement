@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.add-user{
+    border-top: 1px solid #000;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1, h2 {
+  color: black;
+}

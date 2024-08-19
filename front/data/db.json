@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "213e",
+      "studentName": "Pedro",
+      "notes": [
+        {
+          "disciplineId": 1,
+          "note": "8"
+        },
+        {
+          "disciplineId": 2,
+          "note": "6"
+        },
+        {
+          "disciplineId": 3,
+          "note": "7"
+        },
+        {
+          "disciplineId": 4,
+          "note": "5"
+        },
+        {
+          "disciplineId": 5,
+          "note": "4"
+        }
+      ],
+      "average": 7.31,
+      "frequence": "30"
+    }
+  ]
+}
