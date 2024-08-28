@@ -47,19 +47,23 @@ Abra o prompt de comando (cmd).
 
 Navegue até o diretório onde o arquivo .jar foi criado usando o comando cd. 
 
-cd C:\SchoolManagement\api\target
+cd C:\SchoolManagement\SchoolManagement\api\target
+
 Execute o arquivo .jar usando o comando java -jar. 
 
 java -jar SchoolManagement-0.0.1-SNAPSHOT.jar
-Lembre-se de substituir "C:\caminho\para\a\pasta" pelo caminho real para a pasta onde o .jar está localizado.
+
+Lembre-se de substituir "C:\caminho\para\o\projeto" pelo caminho real para a pasta onde o .jar está localizado.
 
 ## Instrução para executar o frontend: 
 
-Abra o prompt de comando (cmd).
+Abra outro prompt de comando (cmd).
 
-Navegue até o diretorio front, e execute "npm run dev"
+Navegue até o diretorio front, execute npm install para instalar dependências, e depois execute npm run dev
 
 cd C:\SchoolManagement\front
+
+npm install
 
 npm run dev
 
