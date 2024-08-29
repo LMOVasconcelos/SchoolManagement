@@ -47,11 +47,13 @@ Abra o prompt de comando (cmd).
 
 Navegue até o diretório onde o arquivo .jar foi criado usando o comando cd. 
 
-cd C:\SchoolManagement\SchoolManagement\api\target
+cd C:\Projetos\SchoolManagement-main\SchoolManagement-main\api\target
 
 Execute o arquivo .jar usando o comando java -jar. 
 
 java -jar SchoolManagement-0.0.1-SNAPSHOT.jar
+
+C:\Projetos\SchoolManagement-main\SchoolManagement-main\api\target>java -jar SchoolManagement-0.0.1-SNAPSHOT.jar
 
 Lembre-se de substituir "C:\caminho\para\o\projeto" pelo caminho real para a pasta onde o .jar está localizado.
 
@@ -61,11 +63,13 @@ Abra outro prompt de comando (cmd).
 
 Navegue até o diretorio front, execute npm install para instalar dependências, e depois execute npm run dev
 
-cd C:\SchoolManagement\front
+cd C:\Projetos\SchoolManagement-main\SchoolManagement-main\front
 
 npm install
 
 npm run dev
+
+Execute no navegador o endereço disponibilizado. 
 
 ## Premissas assumidas:
 - Número fixo de disciplinas: Carlos ensina exatamente cinco disciplinas para todos os alunos. Portanto não haverá cadastro de matéria.
